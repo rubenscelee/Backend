@@ -1,0 +1,33 @@
+{
+  "name": "login-jwt",
+  "version": "1.0.0",
+  "description": "Login JWT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app"
+  },
+  "author": "Rubens fabio",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.1",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-simple": "^0.5.6",
+    "logger": "^0.0.1",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.23.0",
+    "sequelize-cli": "^6.4.1",
+    "sucrase": "^3.28.0"
+  }
+}
